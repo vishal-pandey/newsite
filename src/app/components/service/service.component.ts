@@ -109,9 +109,9 @@ export class ServiceComponent implements OnInit {
 
 			    //check to see if this current container is within viewport
 			    if ((element_top_position <= window_bottom_position)) {
-			      $element.addClass('animated rollIn');
+			      $element.addClass('animated zoomIn');
 			    } else {
-			      $element.removeClass('animated rollIn');
+			      // $element.removeClass('animated rollIn');
 			    }
 			  });
 			}

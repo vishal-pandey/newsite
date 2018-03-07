@@ -23,6 +23,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { ServiceComponent } from './components/service/service.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { NotfoundComponent } from './components/notfound/notfound.component';
 
 
 
@@ -38,7 +39,8 @@ import { ContactComponent } from './components/contact/contact.component';
     HeaderComponent,
     PortfolioComponent,
     ServiceComponent,
-    ContactComponent
+    ContactComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

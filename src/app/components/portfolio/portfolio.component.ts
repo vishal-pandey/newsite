@@ -19,7 +19,7 @@ export class PortfolioComponent implements OnInit {
   		link: 'http://www.sikkimmountains.com/',
   		github: 'https://github.com/vishal-pandey/navnirman.co',
   		tech: 'HTML, CSS, Bootstrap',
-  		feat: 'Fast Roubust',
+  		feat: 'Website for a business of GFRC . Build for the online presence of the Business',
   	},
   	{
   		name: 'RVS Institute',
@@ -99,7 +99,7 @@ export class PortfolioComponent implements OnInit {
   		link: 'https://vishal-pandey.github.io/programming-club/',
   		github: 'https://github.com/vishal-pandey/programming-club/',
   		tech: 'HTML, CSS, Jquery',
-  		feat: 'Website for the GBU CODE WEEk an event organised by the Programming club of the gbu.',
+  		feat: 'Website for the GBU CODE WEEK an event organised by the Programming club of the gbu.',
   	},
   	{
   		name: 'Blog | VishalPandey',
@@ -118,7 +118,7 @@ export class PortfolioComponent implements OnInit {
   		feat: 'Website for GBU Social Service Club',
   	},
   	{
-  		name: 'CBST (Computer Based Test Series)',
+  		name: 'CBTS (Computer Based Test Series)',
   		photo: 'https://raw.githubusercontent.com/vishal-pandey/cdn/master/cbts.png',
   		link: 'https://www.cbts.in/',
   		github: 'https://github.com/vishal-pandey/cbts.in',
@@ -151,7 +151,7 @@ export class PortfolioComponent implements OnInit {
               (element_top_position <= window_bottom_position)) {
             $element.addClass('animated slideInLeft');
           } else {
-            $element.removeClass('animated slideInLeft');
+            // $element.removeClass('animated slideInLeft');
           }
         });
       }

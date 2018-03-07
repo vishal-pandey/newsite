@@ -5,6 +5,7 @@ import {HomeComponent} from './components/home/home.component';
 import {ServiceComponent} from './components/service/service.component';
 import {ContactComponent} from './components/contact/contact.component';
 import {PortfolioComponent} from './components/portfolio/portfolio.component';
+import {NotfoundComponent} from './components/notfound/notfound.component';
 
 
 const routes: Routes = [
@@ -28,6 +29,10 @@ const routes: Routes = [
 		path: 'portfolio',
 		component: PortfolioComponent
 	},
+	{
+		path: '**',
+		component: NotfoundComponent
+	}
 ];
 
 @NgModule({
