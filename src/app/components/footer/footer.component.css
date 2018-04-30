@@ -5,6 +5,7 @@
 	font-size: 28px;
 	background-color: #607D8B;
 	flex-wrap: wrap;
+	z-index: 1000;
 }
 .footer a{
 	text-decoration: none;

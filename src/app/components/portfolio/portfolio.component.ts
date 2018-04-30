@@ -16,7 +16,7 @@ export class PortfolioComponent implements OnInit {
   	{
   		name: 'Nav Nirman',
   		photo: 'https://raw.githubusercontent.com/vishal-pandey/cdn/master/navnirman.png',
-  		link: 'http://www.sikkimmountains.com/',
+  		link: 'http://www.navnirman.co/',
   		github: 'https://github.com/vishal-pandey/navnirman.co',
   		tech: 'HTML, CSS, Bootstrap',
   		feat: 'Website for a business of GFRC . Build for the online presence of the Business',
@@ -56,7 +56,7 @@ export class PortfolioComponent implements OnInit {
   	{
   		name: 'My Volunteer',
   		photo: 'https://raw.githubusercontent.com/vishal-pandey/cdn/master/myvolunteer.png',
-  		link: 'http://myvolunteer.in',
+  		link: 'http://myvolunteer.in/',
   		github: 'https://github.com/vishal-pandey/myvolunteer.in',
   		tech: 'WordPress',
   		feat: 'Volunteering Service Startup Website',
@@ -64,7 +64,7 @@ export class PortfolioComponent implements OnInit {
   	{
   		name: 'JSP Project',
   		photo: 'https://raw.githubusercontent.com/vishal-pandey/cdn/master/jsp.png',
-  		link: 'https://jsp.vishalpandey.xyz',
+  		link: 'https://jsp.vishalpandey.xyz/',
   		github: 'https://github.com/vishal-pandey/jsp',
   		tech: 'JSP (Java Server Pages)',
   		feat: 'Basic JSP programs to run on tomcat server',
@@ -72,7 +72,7 @@ export class PortfolioComponent implements OnInit {
   	{
   		name: 'Computer Graphics Project',
   		photo: 'https://raw.githubusercontent.com/vishal-pandey/cdn/master/graphics.png',
-  		link: 'https://graphics.vishalpandey.xyz',
+  		link: 'https://graphics.vishalpandey.xyz/',
   		github: 'https://github.com/vishal-pandey/graphics',
   		tech: 'JavaScript',
   		feat: 'JavaScript Emplementation of Computer Graphics Algorithm',

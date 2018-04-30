@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { tween, styler } from 'popmotion';
 
-// import $ = require("jquery");
-// import * as $ from "jquery"
+import * as $ from "jquery"
+import * as Typed from 'typed.js';
 
 @Component({
   selector: 'app-home',
@@ -17,46 +17,18 @@ export class HomeComponent implements OnInit {
   constructor() {
   }
 
-  // hi(){
-  // 	$('.hi').click(function(){
-  // 		$(this).animate({
-  // 			height: '200px',
-  // 			width: '200px',
-  // 			borderRadius: '200px',
-  // 			fontSize: '50px'
-
-  // 		},function(){
-  // 			$(this).animate({
-  // 				borderRadius: '100px',
-  // 				height: '100px',
-	 //  			width: '100px',
-	 //  			fontSize: '28px'
-  // 			})
-  // 		})
-
-  // 	})
-  // }
-  // appear(){
-  // 	$('.hi').click(function(){
-  		
-  // 		$('.service1').animate({
-  // 			// display: 'initial',
-  // 			fontSize: '18px',
-  // 			height: '200px',
-  // 			width: '200px'
-  // 		},function(){
-  // 			$(this).animate({
-  // 				borderRadius: '100px',
-  // 				height: '100px',
-	 //  			width: '100px'
-  // 			})
-  // 		})
-  // 	})
-  // }
-
+  
   ngOnInit() {
-  	// this.hi()
-  	// this.appear()
+  	var options = {
+      strings: ["Hi", "My Name Is Vishal Pandey", "I am a Coder", "I am a Developer", "I am a Travelar", "I am a Designer", "This is my portfolio website", "You can find my work here"],
+      typeSpeed: 40,
+      backSpeed: 50,
+      loop: true,
+      backDelay: 2000,
+      smartBackspace: true,
+    }
+    var typed = new Typed(".typedText", options);
+    // $(".typed-cursor").css({"font-size":"35px", "color":"white"})
   }
 
 }

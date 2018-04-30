@@ -2,6 +2,7 @@
 	background-color: #607D8B;
 	color: #ECEFF1;
 	font-family: 'Bitter', serif;
+	z-index: 1001;
 }
 .menu a, .header a{
 	color: #ECEFF1;
